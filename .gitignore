@@ -1,0 +1,73 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+# === Gradle Wrapper ===
+gradle-wrapper.properties
+gradle-wrapper.jar
+
+# === Logs ===
+*.log
+spring.log
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+bin/
+
+# === VS Code ===
+.vscode/
+
+# === Docker ===
+# Ignore local Docker files and output
+*.tar
+**/docker-compose.override.yml
+docker-compose.override.yml
+.docker/
+**/.docker/
+
+# You may want to ignore Docker build artifacts if outputting locally
+docker-output/
+**/docker-output/
+
+# === Dockerfile and Compose Files ===
+# (Note: DO NOT ignore these if you want to commit them!)
+# Uncomment if you want to ignore them (not recommended)
+# Dockerfile
+# docker-compose.yml
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
+# === Test Reports ===
+test-output/
+surefire-reports/
+jacoco.exec
+
+# === Environment Files ===
+.env
+*.env
+
+# === Lombok ===
+lombok.config
+
+# === Others ===
+*.swp
+*.swo
+*.orig
