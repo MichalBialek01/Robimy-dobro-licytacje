@@ -10,7 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-class ModeratorEntity {
+public class ModeratorEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
