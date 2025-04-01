@@ -37,7 +37,6 @@ dependencies {
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-
     // annotations
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
@@ -77,6 +76,14 @@ dependencies {
     implementation 'com.google.api-client:google-api-client:2.7.2'
     implementation 'com.google.oauth-client:google-oauth-client-jetty:1.35.0'
     implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.google.http-client:google-http-client-jackson2:1.42.3'
+
+    //Slack dependencies - Bolt for Java
+    implementation("com.slack.api:bolt-socket-mode:1.45.3")
+    implementation("javax.websocket:javax.websocket-api:1.1")
+    implementation("org.glassfish.tyrus.bundles:tyrus-standalone-client:1.20")
+    implementation("org.slf4j:slf4j-simple:1.7.36")
+
 
 }
 
